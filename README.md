@@ -1,2 +1,10 @@
-# ui-box
-A complete set of basic UI components for every day projects
+### UIBox, A complete set of basic UI components for every day projects.
+---
+
+- Grid System
+- Typography
+- Button Set
+- Dialog
+- Alert Box
+- Tabs
+- Accordions
