@@ -1,0 +1,12 @@
+{
+  "name": "UIBox",
+  "version": "0.0.1",
+  "repository": "git@github.com:sadrzadehsina/ui-box.git",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-sass": "^0.7.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "~1.1.1"
+  }
+}
