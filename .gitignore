@@ -8,3 +8,5 @@ uibox.sublime-project
 uibox.sublime-workspace
 
 *.map
+
+src/css
