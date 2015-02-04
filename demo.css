@@ -1,0 +1,12 @@
+.demo-col {
+	background-color: #def0fa;
+	text-align: center;
+	padding: 1em 0;
+	display: block;
+
+	border-radius: 3px;
+}
+
+.row {
+	margin-bottom: 2em;
+}
