@@ -1,0 +1,21 @@
+{
+  "name": "wolf",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sadrzadehsina/minimal-ghost-theme",
+  "authors": [
+    "Sina Sadrzadeh <sadrzadeh.sinaa@gmail.com>"
+  ],
+  "description": "My Simple and Clean Ghost Theme",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/js/libs",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "~3.0.1"
+  }
+}
