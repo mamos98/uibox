@@ -9,4 +9,6 @@ uibox.sublime-workspace
 
 *.map
 
+*.swp
+
 src/css
