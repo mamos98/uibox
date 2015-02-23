@@ -1,0 +1,77 @@
+/* Reset a few tags */
+ul {
+  list-style-type: none;
+}
+hr,
+ul,
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+.navigation {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  color: #fff;
+}
+.navigation > div {
+  padding: 10px 40px 10px 20px;
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation li {
+  padding: 7px 0;
+}
+.navigation a {
+  color: #ccc;
+  text-decoration: none
+}
+.navigation a:hover {
+  color: #fff;
+}
+.navigation hr {
+  background-color: #666;
+  margin: 6px 0;
+}
+
+/* Main Content */
+.content .title {
+  margin-top: 50px;
+  text-align: center;
+}
+.content .subtitle {
+  font-size: 30px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.2em;
+  color: #444;
+}
+.content .buttons {
+  margin-top: 100px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
