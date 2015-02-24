@@ -1,12 +1,8 @@
+# exclude node modules
 node_modules
 
+# exclude bower installed libraries
 bower_components
 
+# exclude sass files which are related to its caching system
 .sass-cache
-
-uibox.sublime-project
-uibox.sublime-workspace
-
-*.map
-
-src/css
