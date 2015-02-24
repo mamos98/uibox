@@ -9,8 +9,7 @@ body {
 ul {
   list-style-type: none;
 }
-ul,
-h1, h2, h3, h4, h5, h6 {
+ul {
   margin: 0;
   padding: 0;
 }
@@ -24,6 +23,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 50px auto 100px;
   width: 600px;
   text-align: center;
+}
+header h1, 
+header h2, 
+header h3, 
+header h4, 
+header h5, 
+header h6 {
+  margin: 0;
+  padding: 0;
 }
 
 .content .subtitle {
