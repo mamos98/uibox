@@ -1,3 +1,10 @@
+html, body, .container {
+  height: 100%;
+}
+body {
+  background-color: #eee;
+}
+
 /* Reset a few tags */
 ul {
   list-style-type: none;
@@ -9,69 +16,42 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-/* Navigation */
-.navigation {
-  position: absolute;
-  left: 0;
-  top: 0;
+.container section {
   height: 100%;
-  color: #fff;
-}
-.navigation > div {
-  padding: 10px 40px 10px 20px;
-}
-.navigation ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.navigation li {
-  padding: 7px 0;
-}
-.navigation a {
-  color: #ccc;
-  text-decoration: none
-}
-.navigation a:hover {
-  color: #fff;
-}
-.navigation hr {
-  background-color: #666;
-  margin: 6px 0;
 }
 
 /* Main Content */
-.content .title {
-  margin-top: 50px;
+.content header {
+  margin: 50px auto 100px;
+  width: 600px;
   text-align: center;
 }
+
 .content .subtitle {
   font-size: 30px;
-  width: 600px;
-  margin: 0 auto;
-  text-align: center;
   line-height: 1.2em;
   color: #444;
 }
-.content .buttons {
-  margin-top: 100px;
+.content .facets {
+  margin-top: 10px;
   text-align: center;
 }
+.content .facets span {
+  font-size: 11px;
+}
 
+/* Grids */
+.demo-col {
+  background-color: #C3C3E5;
+  color: #222;
+  text-align: center;
+  padding: 1em 0;
+  display: block;
 
+  border-radius: 3px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.row {
+  margin-bottom: 2em;
+}
 
