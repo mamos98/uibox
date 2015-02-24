@@ -6,9 +6,3 @@ bower_components
 
 uibox.sublime-project
 uibox.sublime-workspace
-
-*.map
-
-*.swp
-
-src/css
