@@ -1,11 +1,11 @@
 {
-  "name": "wolf",
-  "version": "0.0.1",
-  "homepage": "https://github.com/sadrzadehsina/minimal-ghost-theme",
+  "name": "uibox",
+  "version": "0.1.0",
+  "homepage": "http://sadrzadehsina.github.io/uibox",
   "authors": [
     "Sina Sadrzadeh <sadrzadeh.sinaa@gmail.com>"
   ],
-  "description": "My Simple and Clean Ghost Theme",
+  "description": "A complete set of basic UI components for every day projects",
   "license": "MIT",
   "ignore": [
     "**/.*",
