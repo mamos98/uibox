@@ -594,4 +594,45 @@ form input[type="radio"]:checked + label:before {
   .alert-success :first-child {
     color: #74a730; }
 
+.tabs-links {
+  margin: 0; }
+  .tabs-links:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .tabs-links li {
+    float: left;
+    list-style-type: none;
+    margin-right: 1px; }
+    .tabs-links li:first-child {
+      margin-left: 0.5em; }
+    .tabs-links li a {
+      background-color: #ebeeef;
+      display: inline-block;
+      padding: 1em 1.5em;
+      color: gray;
+      text-decoration: none; }
+      .tabs-links li a:hover {
+        background-color: #c1cacd;
+        color: #333; }
+    .tabs-links li.active a, .tabs-links li.active a:hover {
+      border: 1px solid #ccc;
+      border-bottom: 0;
+      background-color: #fff;
+      color: #333;
+      font-weight: bold;
+      margin-bottom: -1px; }
+
+.tabs-content {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 1.5em; }
+  .tabs-content p:last-child {
+    margin-bottom: 0; }
+
+.tab {
+  display: none; }
+  .tab.active {
+    display: block; }
+
 /*# sourceMappingURL=uibox.css.map */
