@@ -62,3 +62,10 @@ header h6 {
   margin-bottom: 2em;
 }
 
+/* Tabs */
+.tabs-content > div {
+  display: none;
+}
+.tabs-content > div:first-child {
+  display: block;
+}
