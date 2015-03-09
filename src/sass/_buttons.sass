@@ -34,6 +34,33 @@ a.btn-primary,
   background-color: $btn-primary-bg
   color: $btn-primary-text-color
 
+.btn-success,
+.btn-error,
+.btn-warning
+  color: $btn-colorful-text-color
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2)
+
+.btn-success
+  @extend .btn
+  background-color: $btn-success-bg
+
+  &:hover
+    background-color: darken($btn-success-bg, 10%)
+
+.btn-error
+  @extend .btn
+  background-color: $btn-error-bg
+
+  &:hover
+    background-color: darken($btn-error-bg, 10%)
+
+.btn-warning
+  @extend .btn
+  background-color: $btn-warning-bg
+
+  &:hover
+    background-color: darken($btn-warning-bg, 10%)
+
 .btn-small
   @extend .btn
 

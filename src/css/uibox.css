@@ -459,7 +459,7 @@ blockquote {
     font-style: normal; }
 
 button, .btn, a.btn-primary,
-.btn-primary, .btn-small, .btn-large, a.btn, a.btn-primary, a.btn-small, a.btn-large {
+.btn-primary, .btn-success, .btn-error, .btn-warning, .btn-small, .btn-large, a.btn, a.btn-primary, a.btn-success, a.btn-error, a.btn-warning, a.btn-small, a.btn-large {
   border: 0;
   border-radius: 3px;
   background-color: #dde2d4;
@@ -472,20 +472,41 @@ button, .btn, a.btn-primary,
   display: inline-block;
   padding: 0.75em 1.5em; }
   button:hover, .btn:hover,
-  .btn-primary:hover, .btn-small:hover, .btn-large:hover, a.btn:hover, a.btn-primary:hover, a.btn-small:hover, a.btn-large:hover {
+  .btn-primary:hover, .btn-success:hover, .btn-error:hover, .btn-warning:hover, .btn-small:hover, .btn-large:hover, a.btn:hover, a.btn-primary:hover, a.btn-success:hover, a.btn-error:hover, a.btn-warning:hover, a.btn-small:hover, a.btn-large:hover {
     background-color: #333;
     color: #fff; }
   button:active, .btn:active,
-  .btn-primary:active, .btn-small:active, .btn-large:active, a.btn:active, a.btn-primary:active, a.btn-small:active, a.btn-large:active {
+  .btn-primary:active, .btn-success:active, .btn-error:active, .btn-warning:active, .btn-small:active, .btn-large:active, a.btn:active, a.btn-primary:active, a.btn-success:active, a.btn-error:active, a.btn-warning:active, a.btn-small:active, a.btn-large:active {
     background-color: #4d4d4d; }
   button:focus, .btn:focus,
-  .btn-primary:focus, .btn-small:focus, .btn-large:focus, a.btn:focus, a.btn-primary:focus, a.btn-small:focus, a.btn-large:focus {
+  .btn-primary:focus, .btn-success:focus, .btn-error:focus, .btn-warning:focus, .btn-small:focus, .btn-large:focus, a.btn:focus, a.btn-primary:focus, a.btn-success:focus, a.btn-error:focus, a.btn-warning:focus, a.btn-small:focus, a.btn-large:focus {
     outline: none; }
 
 a.btn-primary,
 .btn-primary {
   background-color: #0f82bd;
   color: #d0ecfb; }
+
+.btn-success,
+.btn-error,
+.btn-warning {
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+
+.btn-success {
+  background-color: #1cb841; }
+  .btn-success:hover {
+    background-color: #158c31; }
+
+.btn-error {
+  background-color: #ca3c3c; }
+  .btn-error:hover {
+    background-color: #a62d2d; }
+
+.btn-warning {
+  background-color: #df7514; }
+  .btn-warning:hover {
+    background-color: #b05c10; }
 
 .btn-small {
   font-size: 0.75em; }
