@@ -12,9 +12,8 @@ UIBox has a 12 columns grid system which is flexible enough to form your desired
 <div class="col-3"></div>
 <div class="col-1"></div>
 ```
-In addition to normal sizes, UIBox also support some meaningful classes which help you build your layout semantically.
 
-Examples and Details: [uibox/grid](http://sadrzadehsina.github.io/uibox/#grids)
+In addition to normal sizes, UIBox also support some meaningful classes which help you build your layout semantically.
 
 ```html
 <div class="col-half"></div>
@@ -22,6 +21,8 @@ Examples and Details: [uibox/grid](http://sadrzadehsina.github.io/uibox/#grids)
 <div class="col-two-thirds"></div>
 <div class="col-quarter"></div>
 ```
+
+Examples and Details: [uibox/grid](http://sadrzadehsina.github.io/uibox/#grids)
 
 - Typography
 - Button Set
