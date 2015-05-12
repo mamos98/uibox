@@ -6,3 +6,6 @@ bower_components
 
 # exclude sass files which are related to its caching system
 .sass-cache
+
+#exclude examples folder
+examples
